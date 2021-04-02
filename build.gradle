@@ -2,7 +2,6 @@ plugins {
   id 'java'
   id 'maven'
   id 'maven-publish'
-  id "com.jfrog.bintray" version "1.8.5"
 }
 
 group = 'uk.org.dataforce.libs'
@@ -29,7 +28,7 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.12.1'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.1'
 
-    compile group: 'com.launchdarkly', name: 'okhttp-eventsource', version: '2.3.1'
+    compile group: 'com.launchdarkly', name: 'okhttp-eventsource', version: '1.10.0'
 }
 
 jar {
